@@ -4,7 +4,8 @@
             [mwe-cors-bug.events]
             [mwe-cors-bug.subs]
             [mwe-cors-bug.views :as views]
-            [mwe-cors-bug.config :as config]))
+            [mwe-cors-bug.config :as config]
+            [day8.re-frame.http-fx]))
 
 
 (defn dev-setup []
