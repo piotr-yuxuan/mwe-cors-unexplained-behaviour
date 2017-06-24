@@ -6,7 +6,8 @@
                  [day8.re-frame/http-fx "0.1.3"]
                  [cljs-ajax "0.5.8"]]
 
-  :plugins [[lein-cljsbuild "1.1.4"]]
+  :plugins [[lein-cljsbuild "1.1.4"]
+            [lein-ancient "0.6.10"]]
 
   :min-lein-version "2.5.3"
 
