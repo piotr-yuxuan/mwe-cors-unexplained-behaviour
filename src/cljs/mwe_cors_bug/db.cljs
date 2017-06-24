@@ -1,0 +1,4 @@
+(ns mwe-cors-bug.db)
+
+(def default-db
+  {:name "re-frame"})
