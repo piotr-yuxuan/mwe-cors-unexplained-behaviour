@@ -4,4 +4,6 @@
 (defn main-panel []
   (let [name (re-frame/subscribe [:name])]
     (fn []
-      [:div "Hello from " @name])))
+      [:div
+       [:div "Hello from " @name]
+       [:button {:on-click #(re-frame/dispatch [:get-gnu])} ":get-gnu"]])))
