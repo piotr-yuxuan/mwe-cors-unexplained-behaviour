@@ -77,7 +77,7 @@ lein figwheel
 
 - with original template versions:
 ``` bash
-git checkout 138321a
+git checkout 2481d00811f2bc17576c6ce37f5d6118f60edc4c~1
 lein clean
 lein figwheel
 ```
